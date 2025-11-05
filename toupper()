@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main(){
+    string teks="saya beli es krim";
+    cout<<teks<<endl;
+    teks[0]=toupper(teks[0]);
+    cout<<teks<<endl;
+    cout<<"---"<<endl;
+    cout<<teks[0]<<endl;
+    cout<<char(tolower(teks[0]))<<endl;
+    cout<<"---"<<endl;
+    cout<<teks<<endl;
+    cout<<"toupper/tolower dari <cctype>"<<endl;
+}
