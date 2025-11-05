@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    string nama1 = "Wildan Septiano";
+    cout << nama1.substr(0,4);   // ambil "Wildan"
+}
