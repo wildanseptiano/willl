@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+    string teks="Saya suka makan bakso";
+    cout<<teks<<endl;
+    int pos=teks.find("makan");
+    int pjg=5;
+    teks.erase(pos,pjg);
+    cout<<teks<<endl;
+    cout<<"---"<<endl;
+    cout<<teks.find("suka")<<endl;
+    cout<<teks.find("bakso")<<endl;
+    cout<<teks<<endl;
+    cout<<"---"<<endl;
+    cout<<"erase untuk menghapus kata"<<endl;
+}
