@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+    string teks="Hari ini cuaca panas";
+    cout<<teks<<endl;
+    int pos=teks.find("panas");
+    int pjg=5;
+    teks.replace(pos,pjg,"dingin");
+    cout<<teks<<endl;
+    cout<<"---"<<endl;
+    cout<<teks.find("dingin")<<endl;
+    cout<<teks.find("Hari")<<endl;
+    cout<<teks<<endl;
+    cout<<"---"<<endl;
+    cout<<"replace untuk ganti kata"<<end;
+}
