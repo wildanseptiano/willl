@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    string nama1 = "WILDAN";
+    cout << nama1 + " SMKN 1 BOYOLANGU";      
+}
