@@ -1,7 +1,18 @@
 #include <iostream>
 using namespace std;
-
 int main(){
-    string nama1 = "Wildan Septiano";
-    cout << nama1.substr(0,4);   // ambil "Wildan"
+    string teks="Saya suka bermain game";
+    string potong=teks.substr(10,7);
+    cout<<teks<<endl;
+    cout<<potong<<endl;
+    cout<<teks.substr(0,4)<<endl;
+    cout<<teks.substr(5,4)<<endl;
+    cout<<teks.substr(15,4)<<endl;
+    cout<<"---"<<endl;
+    cout<<teks.substr(0,1)<<endl;
+    cout<<teks.substr(2,1)<<endl;
+    cout<<teks.substr(5,2)<<endl;
+    cout<<"---"<<endl;
+    cout<<"substr digunakan mengambil sebagian"<<endl;
+    return 0;
 }
