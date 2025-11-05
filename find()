@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+    string teks="Sekolah itu tempat belajar";
+    cout<<teks<<endl;
+    cout<<teks.find("tempat")<<endl;
+    cout<<teks.find("belajar")<<endl;
+    cout<<teks.find("itu")<<endl;
+    cout<<"---"<<endl;
+    cout<<teks.find("Sekolah")<<endl;
+    cout<<teks.find("x")<<endl;
+    int pos=teks.find("tempat");
+    cout<<pos<<endl;
+    cout<<"---"<<endl;
+    cout<<"find mencari posisi substring"<<endl;
+}
