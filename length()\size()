@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    string nama1 = "Dwi Setia";
+    cout << nama1.length();      // menghitung panjang string
+}
