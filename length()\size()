@@ -1,7 +1,18 @@
 #include <iostream>
 using namespace std;
-
 int main(){
-    string nama1 = "Dwi Setia";
-    cout << nama1.length();      // menghitung panjang string
+    string teks="Belajar C++ seru";
+    int pjg=teks.length();
+    cout<<"Isi string   : "<<teks<<endl;
+    cout<<"Panjang teks : "<<pjg<<endl;
+    cout<<"size() juga bisa : "<<teks.size()<<endl;
+    cout<<"Huruf pertama: "<<teks[0]<<endl;
+    cout<<"Huruf terakhir: "<<teks[pjg-1]<<endl;
+    cout<<"Jumlah karakter : "<<pjg<<" karakter"<<endl;
+    cout<<"String ini terdiri "<<pjg<<" char"<<endl;
+    cout<<"Program ini memakai length()"<<endl;
+    cout<<"dan juga memakai size()"<<endl;
+    cout<<"Keduanya fungsinya sama"<<endl;
+    cout<<"Program selesai"<<endl;
+    return 0;
 }
