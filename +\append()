@@ -1,7 +1,19 @@
 #include <iostream>
 using namespace std;
-
 int main(){
-    string nama1 = "WILDAN";
-    cout << nama1 + " SMKN 1 BOYOLANGU";      
+    string teks="Pemrograman itu";
+    cout<<"Sebelum ditambah : "<<teks<<endl;
+    teks = teks + " sangat menyenangkan";
+    cout<<"Sesudah +        : "<<teks<<endl;
+    string teks2=" belajar di rumah";
+    teks.append(teks2);
+    cout<<"Sesudah append() : "<<teks<<endl;
+    cout<<"Gabungan total   : "<<teks<<endl;
+    cout<<"append() menambah string"<<endl;
+    cout<<"operator + juga menambah"<<endl;
+    cout<<"jadi keduanya mirip"<<endl;
+    cout<<"tapi append langsung ke variabel"<<endl;
+    cout<<"sedangkan + bisa untuk output"<<endl;
+    cout<<"contoh selesai"<<endl;
+    return 0;
 }
